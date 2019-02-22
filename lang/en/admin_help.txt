@@ -1,0 +1,9 @@
+====== QScript Tags ======
+//by Sven Tegethoff//
+
+Lines consist of two fields separated by commas:
+  * Text to find. 
+  * The tag to replace it with
+  
+For example, this will tag the words "Thing," "thing," "Things" and "things" to xx
+  [Tt]hings?, xx
