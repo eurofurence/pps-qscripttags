@@ -1,8 +1,4 @@
 <?php
-if(!defined('DOKU_INC')) define('DOKU_INC',realpath(dirname(__FILE__).'/../../').'/');
-if(!defined('DOKU_PLUGIN')) define('DOKU_PLUGIN',DOKU_INC.'lib/plugins/');
-if(!defined('DOKU_REL')) define('DOKU_REL', '/dokuwiki/');
-require_once(DOKU_PLUGIN.'syntax.php');
 
 //TODO: Bugs:
 // - lexer combines all plugin search strings. If you have too many replacements in a namespace (something between 500 and 1000),

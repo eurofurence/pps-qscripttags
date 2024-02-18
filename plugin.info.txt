@@ -1,6 +1,6 @@
-author  Sven Tegethoff
-email   cheetah@tigress.com
-date    2019-02-22
+author  Dirk Meyer
+email   dirk.meyer+qscript@dinoex.sub.org
+date    2024-01-18
 name    QScript Tags
 desc    Automatically replace QScript Tags with more visually pleasing markers
 url     

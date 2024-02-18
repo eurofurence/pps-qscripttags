@@ -3,7 +3,6 @@
  * QScript Tags DokuWiki plugin
  *
  */
-if(!defined('DOKU_INC')) die();
 
 class helper_plugin_qscripttags extends DokuWiki_Admin_Plugin {
 //	const CONFIG_FILE = DOKU_CONF . 'qscripttags.conf';
@@ -26,5 +25,9 @@ class helper_plugin_qscripttags extends DokuWiki_Admin_Plugin {
 	 */
 	public function loadConfigFile() {
 		return file_exists(self::CONFIG_FILE) ? io_readFile(self::CONFIG_FILE) : '';
+	}
+	public function handle() {
+	}
+	public function html() {
 	}
 }
